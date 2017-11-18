@@ -13,6 +13,10 @@ class Programador {
     String lenguajes // separados por coma
     // grasada mode off
 
+    Dinero platita
+
+    static embedded = ['platita']
+
     static constraints = {
       nombre nullable: false, blank: false
       // nombre([nullable: false, blank: false])
